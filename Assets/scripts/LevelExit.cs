@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelExit : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class LevelExit : MonoBehaviour
         if (other.GetComponent<CharacterController>() == null)
             return;
 
-        Debug.Log("LEVEL 1 COMPLETED!");
+        string levelName = SceneManager.GetActiveScene().name;
+
+        Debug.Log(levelName + " COMPLETED!");
     }
 }

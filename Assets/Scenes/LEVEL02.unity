@@ -1631,6 +1631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AccessCardPickup
   securityDoor: {fileID: 108514698}
+  levelExit: {fileID: 21302085}
 --- !u!1 &1178205589
 GameObject:
   m_ObjectHideFlags: 0
